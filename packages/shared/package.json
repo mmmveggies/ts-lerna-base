@@ -1,0 +1,15 @@
+{
+  "name": "@mono/shared",
+  "version": "0.0.0",
+  "description": "Example monorepo shared code",
+  "author": "mmmveggies <jakeselig@gmail.com>",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "tsc -b --watch",
+    "prepare": "tsc -b"
+  }
+}

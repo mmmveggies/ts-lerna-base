@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["ES2020"],
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    // "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "strict": true,
+    "target": "ES2020"
+  }
+}

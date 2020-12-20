@@ -1,0 +1,19 @@
+{
+  "name": "@mono/backend",
+  "version": "0.0.0",
+  "description": "Example monorepo using ts-node",
+  "author": "mmmveggies <jakeselig@gmail.com>",
+  "license": "ISC",
+  "main": "lib/backend.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "tsnd src/index.ts",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@mono/shared": "^0.0.0",
+    "ts-node-dev": "^1.1.1"
+  }
+}
